@@ -1,4 +1,4 @@
-# Netshoes Scraper API 🚀
+# Netshoes Scraper API
 
 Este projeto é uma API REST robusta desenvolvida com **Spring Boot**, projetada para realizar o web scraping automatizado de produtos do e-commerce Netshoes. Utilizando a biblioteca **Jsoup**, a aplicação extrai dados críticos como títulos, preços, cores e tamanhos, persistindo-os em um banco de dados **PostgreSQL** para análise e consulta posterior.
 
@@ -71,7 +71,7 @@ http://localhost:8080
 ## 🧪 Testes
 
 <details>
-<summary>📂 Abrir aba de testes</summary>
+<summary> Abrir aba de testes</summary>
 
 ### Guia rápido
 
