@@ -81,19 +81,24 @@ http://localhost:8080
 
 ### Exemplo de resposta
 
-"success": true,
-    "totalProducts": 9,
-    "products": [
-        {
-            "id": 1,
-            "title": "Tênis Adidas Duramo 2.0 Masculino - Preto",
-            "price": "R$ 294,49",
-            "imageUrl": "https://static.netshoes.com.br/produtos/tenis-adidas-duramo-20-masculino/06/3ZP-5591-006/3ZP-5591-006_detalhe1.jpg?ts=1776654845",
-            "description": "Saia para correr com liberdade e qualidade usando o Tênis Adidas Duramo 2.0 Masculino. É confeccionado em material macio ao toque da pele, com cabedal respirável e estrutura resistente para a sua corrida. Esse tênis traz amortecimento flexível lightmotion para movimentos em alta velocidade. Já o solado em borracha oferece tração e aderência ao solo para melhor performance. Peça já seu tênis masculino e dê seu melhor no esporte!",
-            "colors": "Preto",
-            "sizes": "Disponíveis: 39, 40, 42, 44 | Indisponíveis: 37, 38, 41, 43, 45",
-            "collectedAt": "2026-04-20T14:51:34.8820733"
-        }
+```json
+{
+  "success": true,
+  "totalProducts": 9,
+  "products": [
+    {
+      "id": 1,
+      "title": "Tênis Adidas Duramo 2.0 Masculino - Preto",
+      "price": "R$ 294,49",
+      "imageUrl": "https://static.netshoes.com.br/produtos/tenis-adidas-duramo-20-masculino/06/3ZP-5591-006/3ZP-5591-006_detalhe1.jpg?ts=1776654845",
+      "description": "Saia para correr com liberdade e qualidade usando o Tênis Adidas Duramo 2.0 Masculino. É confeccionado em material macio ao toque da pele, com cabedal respirável e estrutura resistente para a sua corrida. Esse tênis traz amortecimento flexível lightmotion para movimentos em alta velocidade. Já o solado em borracha oferece tração e aderência ao solo para melhor performance. Peça já seu tênis masculino e dê seu melhor no esporte!",
+      "colors": "Preto",
+      "sizes": "Disponíveis: 39, 40, 42, 44 | Indisponíveis: 37, 38, 41, 43, 45",
+      "collectedAt": "2026-04-20T14:51:34.8820733"
+    }
+  ]
+}
+```
 
 Nota: `totalProducts` indica quantos itens foram processados na última execução.
 
