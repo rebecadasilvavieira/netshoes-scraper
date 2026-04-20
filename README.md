@@ -1,4 +1,4 @@
-# Netshoes Scraper API 🚀
+# Netshoes Scraper API 
 
 O desafio consiste em desenvolver um web scraper capaz de realizar a requisição de uma página de produto, obter o HTML e extrair as informações de **título, preço, imagem e descrição**.
 
@@ -74,7 +74,7 @@ CREATE DATABASE netshoesdb;
 \q
 ```
 
-**Configurar as credenciais:**Edite o arquivo `src/main/resources/application.properties`:
+**Configurar as credenciais:** Edite o arquivo `src/main/resources/application.properties`:
 
 ```
 spring.datasource.url=jdbc:postgresql://localhost:5432/netshoesdb
@@ -118,7 +118,7 @@ Você pode testar via Postman ou terminal:
    curl http://localhost:8080/api/products/melhorpreco
    ```
 
-### 📸 Exemplo de Resposta JSON
+### 📸 Exemplo de Resposta - Api/Products
 
 ```json
 {
